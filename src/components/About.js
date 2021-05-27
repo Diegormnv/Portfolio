@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section className="about-container">
       <div className="about-text">
         <p>
           Hi, I am Diego and I am Learning to become a Full Stack Web Developer.
@@ -20,13 +20,18 @@ const About = () => {
       </div>
 
       <div classname="skills">
-        <h3>Languages Learned</h3>
+        <h3>Skills and Languages Learned</h3>
         <div classname="skills-container">
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React</li>
+          </ul>
+          <ul>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>Python</li>
           </ul>
         </div>
       </div>

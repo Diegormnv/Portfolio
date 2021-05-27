@@ -2,14 +2,14 @@ import React from "react";
 import projects from "../projects/projects";
 import Project from "./Project";
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <section className="projects-section">
-      <h2>Projects</h2>
-      <div>
-        {projects.map((project, index) => (
-          <Project key={index} project={project} />
-        ))}
+      <div className="projects-container">
+        <h1>Projects</h1>
+        {projects.map((project) => {
+          return <Project key={project.id} project={project} />;
+        })}
       </div>
     </section>
   );
