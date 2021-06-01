@@ -1,0 +1,26 @@
+.about-container {
+  display: flex;
+  margin: 2rem;
+  .about-text {
+    margin: 1.2rem;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+    p {
+      margin: 1.3rem;
+    }
+  }
+  .skills-container {
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

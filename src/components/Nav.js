@@ -23,14 +23,6 @@ const Nav = (props) => {
           <Link to="contact-container">Contact</Link>
         </li>
       </ul>
-      <div className="contact">
-        <a href="https://github.com/Diegormnv">
-          <img className="links" src={github} alt="github" />
-        </a>
-        <a href="https://www.linkedin.com/in/diego-roman-743897142/">
-          <img className="links" src={linkedIn} alt="LinkedIn" />
-        </a>
-      </div>
     </div>
   );
 };

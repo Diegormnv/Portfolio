@@ -19,9 +19,9 @@ const About = () => {
         </p>
       </div>
 
-      <div classname="skills">
+      <div className="skills-container">
         <h3>Skills and Languages Learned</h3>
-        <div classname="skills-container">
+        <div className="skills">
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -32,6 +32,7 @@ const About = () => {
             <li>Node.js</li>
             <li>Express</li>
             <li>Python</li>
+            <li>SCSS</li>
           </ul>
         </div>
       </div>
