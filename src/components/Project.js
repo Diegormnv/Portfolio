@@ -1,10 +1,13 @@
 import React from "react";
 
 const Project = ({ project }) => {
+  console.log(project, "hello");
   return (
     <div className="project-container">
-      <p>{project.title}</p>
-      {/*<div>{project.image}</div>*/}
+      <h3>{project.title}</h3>
+      <div className="projImg">
+        <img src={project.image} alt="Nasa Project" />
+      </div>
       <a href={project.link}>Deployed Here</a>
       <p>{project.description}</p>
       <p>{project.languages}</p>
