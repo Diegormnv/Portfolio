@@ -29,23 +29,9 @@
 .nav-item {
   font-size: 1.2rem;
 }
-.links {
-  width: 3vw;
-  height: 5vh;
-}
 
 .about-section {
   display: flex;
-}
-
-.img-container {
-  background-image: url(./assests/portrait.png);
-  background-position: center;
-  background-size: cover;
-  border-radius: 50%;
-  margin-right: 7rem;
-  width: 20vw;
-  height: 40vh;
 }
 
 a {
@@ -71,13 +57,4 @@ a {
 
 ul {
   list-style-type: none;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
