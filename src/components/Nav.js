@@ -1,9 +1,14 @@
 import React from "react";
 import { Link } from "react-scroll";
-import github from "../assests/Github-512.png";
-import linkedIn from "../assests/linkedin.png";
+import sunicon from "../assests/sunicon.svg";
+import moonicon from "../assests/moonicon.svg";
 
-const Nav = (props) => {
+const Nav = ({ darkMode, setDarkMode }) => {
+  const toggleMode = (e) => {
+    e.preventDefault();
+    setDarkMode(!darkMode);
+  };
+
   return (
     <div className="navigation">
       <ul className="nav-links">
@@ -23,6 +28,10 @@ const Nav = (props) => {
           <Link to="contact-container">Contact</Link>
         </li>
       </ul>
+      <div
+        onClick={toggleMode}
+        className={darkMode ? "toggle toggled" : "toggle"}
+      />
     </div>
   );
 };
