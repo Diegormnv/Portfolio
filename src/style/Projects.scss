@@ -1,4 +1,5 @@
 .projects-container {
+  border: ;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -6,16 +7,24 @@
     font-size: 2.5rem;
   }
   .project-container {
+    border: 1px solid black;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+
+    .text{
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+    }
+
     h3 {
       font-size: 1.8rem;
     }
     p {
       font-size: 1.3rem;
+      margin: 1rem;
     }
     img {
       margin-top: 0.3rem;
