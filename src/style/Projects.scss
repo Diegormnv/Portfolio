@@ -6,21 +6,25 @@
     font-size: 2.5rem;
   }
   .project-container {
-    border: 1px solid black;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     
     .title{
-      border: 1px solid black;
       margin: .5rem;
     }
 
     .text{
-      border: 1px solid black;
       display: flex;
       flex-direction: column;
+
+      .button{
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+      }
     }
 
     h3 {

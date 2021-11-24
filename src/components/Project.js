@@ -15,7 +15,7 @@ const Project = ({ project }) => {
         <div>
           <p>Languages Used: {project.languages}</p>
           <a href={project.link}>
-            <button>Deployed Here </button> 
+            <div className="button">Deployed Here</div> 
           </a>
         </div>
       </div>  

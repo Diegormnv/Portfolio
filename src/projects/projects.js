@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     title: "Nasa's Photo of The Day",
     description:
-      "A React app using state management and axios to fetch data from Nasa's api.",
+      "A React app using state management and axios to fetch data from Nasa's api. After laerning some new skills I had revisited this application to add an input form to select a specific date to request the data.",
     link: "https://nasa-photo-of-the-day-kd8bg1wfr-diegormnv.vercel.app/",
     image:
       "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=827&q=80",
@@ -34,6 +34,7 @@ const projects = [
     title: "Family Promise",
     description:
       "This application is used by the workers of Family Promise to help keep track of their recipients that they are currently helping and keep track of the services that are being provided. It also helps managers assign duties to lower level workers and keep track of services, workers, and recipients currently recieving aid. I worked on this project along with other fellow students of Lambda in our final month. I had worked on the backend with two other fellow developers where we tried to optimize the database further to help handle data for the application in the future. It gave us some real world experience in which we had to carefully plan along with a team lead, decide roles with one another and have meeting with project managers along with a stockholder.",
+    link: "https://github.com/Diegormnv/family-promise-service-tracker-be-b",
     image:
       "https://familypromise.org/wp-content/uploads/2021/08/FP-2021_stacked.png",
     languages: "NodeJs Knex PostgresQL",
