@@ -12,9 +12,13 @@ const Project = ({ project }) => {
       </div>
       <div className="text">
         <p>{project.description}</p>
-        <p>{project.languages}</p>
-      </div>
-        <a href={project.link}>Deployed Here</a>
+        <div>
+          <p>Languages Used: {project.languages}</p>
+          <a href={project.link}>
+            <button>Deployed Here </button> 
+          </a>
+        </div>
+      </div>  
     </div>
   );
 };
